@@ -1,0 +1,55 @@
+/* AZUL DEGRADADO */
+/* body {
+    background: #000046;
+    background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046); 
+    background: linear-gradient(to bottom, #1CB5E0, #000046);
+} */
+
+/* AZUL AZUL
+body {
+    background: #0575E6;
+    background: -webkit-linear-gradient(to top, #021B79, #0575E6);
+    background: linear-gradient(to top, #021B79, #0575E6);
+} */
+
+body {
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+#nav {
+    text-align: center;
+    background-color: #0056b3;
+}
+
+#contenedorInfo {
+    color: black;
+    background-color: #fff;
+    max-width: 1000px;
+    max-height: 2000px;
+}
+
+#containerContact {
+    background-color: #007bff;
+    height: 60px;
+
+
+}
+
+.card-title {
+    text-align: left;
+
+}
+
+.line {
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    border-color: black;
+}
+
+.footer {
+    background-color: #0056b3;
+}
