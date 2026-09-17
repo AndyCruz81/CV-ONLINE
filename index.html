@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andy Cruz García | Software Engineer & Data Developer | Nicaragua</title>
+
+  <!-- SEO & OpenGraph Meta Tags -->
+  <meta name="description" content="Andy Cruz García es Ingeniero de Sistemas en Nicaragua con más de 3 años de experiencia desarrollando soluciones empresariales con C# .NET, SQL Server, Python, flujos ETL y Power BI para Fintech y Retail." />
+  <meta name="keywords" content="Andy Cruz, Andy Cruz Garcia, Software Engineer Nicaragua, Backend Developer, .NET Developer, C#, SQL Server, ETL, Power BI, Python, Fintech, Retail" />
+  <meta name="author" content="Andy José Cruz García" />
+  <meta name="geo.region" content="NI" />
+  <meta name="geo.placename" content="Managua, Nicaragua" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Andy Cruz García | Software Engineer & Data Developer" />
+  <meta property="og:description" content="Ingeniero de Sistemas especializado en backend robusto (.NET / C#), optimización de bases de datos relacionales y análisis de datos." />
+  <meta property="og:url" content="https://andycruz81.github.io/CV-ONLINE/" />
+  <meta property="og:site_name" content="Andy Cruz García" />
+
+  <!-- Google Fonts & Lucide Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "Andy José Cruz García",
+    "url": "https://andycruz81.github.io/CV-ONLINE/",
+    "jobTitle": "Software Engineer & Backend Developer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Managua",
+      "addressCountry": "Nicaragua"
+    },
+    "sameAs": [
+      "https://github.com/AndyCruz81",
+      "https://www.linkedin.com/in/andy-cruz-/"
+    ],
+    "knowsAbout": [
+      "C#", ".NET", "Microsoft SQL Server", "T-SQL", "ETL", "Power BI", "Python", "Flask", "WinForms", "Microfinanzas", "Retail"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Navbar Flotante Glassmorphism -->
+  <header class="navbar-wrapper">
+    <div class="navbar container">
+      <a href="#" class="brand-logo">
+        <span class="brand-icon">
+          <i data-lucide="terminal"></i>
+        </span>
+        <span class="brand-name">Andy Cruz</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about" class="nav-link">Sobre Mí</a>
+        <a href="#experience" class="nav-link">Trayectoria</a>
+        <a href="#stack" class="nav-link">Stack</a>
+        <a href="#projects" class="nav-link">Proyectos</a>
+        <a href="#contact" class="nav-link">Contacto</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/AndyCruz81" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="GitHub">
+          <i data-lucide="github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/andy-cruz-/" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="LinkedIn">
+          <i data-lucide="linkedin"></i>
+        </a>
+        <button id="theme-toggle" class="btn-icon theme-btn" aria-label="Cambiar tema">
+          <i data-lucide="sun" class="sun-icon"></i>
+          <i data-lucide="moon" class="moon-icon"></i>
+        </button>
+        <button id="mobile-menu-btn" class="btn-icon mobile-menu-btn" aria-label="Abrir menú">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menú Móvil -->
+    <div id="mobile-menu" class="mobile-menu container">
+      <a href="#about" class="mobile-nav-link">Sobre Mí</a>
+      <a href="#experience" class="mobile-nav-link">Trayectoria</a>
+      <a href="#stack" class="mobile-nav-link">Stack Técnico</a>
+      <a href="#projects" class="mobile-nav-link">Proyectos</a>
+      <a href="#contact" class="mobile-nav-link">Contacto</a>
+    </div>
+  </header>
+
+  <!-- Contenedor Principal -->
+  <main class="main-content container">
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="glass-pill hero-badge">
+        <span class="status-dot"></span>
+        <span>Hola, soy Ingeniero de Software basado en Nicaragua 🇳🇮</span>
+      </div>
+
+      <div class="hero-body">
+        <div class="hero-text">
+          <h1 class="hero-title">Andy José Cruz García</h1>
+          <p class="hero-subtitle">
+            Software Engineer & Data Developer
+            <span class="hero-focus">( Backend Empresarial & Sistemas Transaccionales / .NET • SQL Server • Python )</span>
+          </p>
+          <div class="hero-tags">
+            <span class="badge badge-accent">Fintech & Microfinanzas</span>
+            <span class="badge badge-accent">Retail & Inventarios</span>
+            <span class="badge badge-green">Disponible para Proyectos Remotos</span>
+          </div>
+        </div>
+
+        <div class="hero-avatar-wrapper">
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <span class="avatar-initials">AC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <span>Ver Proyectos</span>
+          <i data-lucide="arrow-right"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/andy-cruz-/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <i data-lucide="linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i data-lucide="mail"></i>
+          <span>Contáctame</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Sobre Mí (Work) -->
+    <section id="about" class="content-section">
+      <h2 class="section-title">
+        <span>Sobre Mí</span>
+        <div class="title-line"></div>
+      </h2>
+
+      <div class="glass-card about-card">
+        <p class="paragraph">
+          Soy <strong>Ingeniero de Sistemas</strong> con más de <strong>3 años de experiencia</strong> diseñando, desarrollando y optimizando soluciones de software empresarial de misión crítica. Mi trayectoria se ha forjado en sectores de alta exigencia operativa:
+        </p>
+
+        <div class="highlights-grid">
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i data-lucide="landmark"></i>
+            </div>
+            <div class="highlight-content">
+              <h3>Fintech & Microfinanzas</h3>
+              <p>Desarrollo de módulos crediticios, gestión de cartera, sistemas de cobranza y motores de reportería regulatoria para auditorías estatales (Credicoop, Credifin).</p>
+            </div>
+          </div>
+
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i data-lucide="shopping-bag"></i>
+            </div>
+            <div class="highlight-content">
+              <h3>Retail & Inventarios</h3>
+              <p>Desarrollo y soporte evolutivo de plataformas transaccionales para control de tiendas, inventarios en tiempo real y contabilidad de costos (El Halcón).</p>
+            </div>
+          </div>
+
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i data-lucide="database"></i>
+            </div>
+            <div class="highlight-content">
+              <h3>Datos & Inteligencia de Negocios</h3>
+              <p>Pipelines ETL en C# y SQL Server hacia Data Warehouses centralizados, complementados con tableros ejecutivos en Power BI (+30% eficiencia operativa).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trayectoria Profesional (Timeline) -->
+    <section id="experience" class="content-section">
+      <h2 class="section-title">
+        <span>Trayectoria</span>
+        <div class="title-line"></div>
+      </h2>
+
+      <div class="timeline">
+        <!-- Puesto 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Analista Desarrollador de Software</h3>
+                <span class="timeline-company">El Halcón · Managua, Nicaragua</span>
+              </div>
+              <span class="timeline-date">Marzo 2025 — Presente</span>
+            </div>
+            <ul class="timeline-points">
+              <li>Desarrollo y mantenimiento evolutivo de sistemas de escritorio en <strong>C# y .NET (WinForms)</strong> para control de inventarios, facturación y operaciones comerciales.</li>
+              <li>Diseño y optimización de procedimientos almacenados, vistas e índices en <strong>Microsoft SQL Server</strong> para reportería de costos y transacciones.</li>
+              <li>Soporte técnico de nivel 2 y 3, diagnosticando bugs en código legacy y asegurando la continuidad del negocio con alta disponibilidad.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Puesto 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Desarrollador de Software</h3>
+                <span class="timeline-company">Wimix Solutions S.A. · Managua, Nicaragua</span>
+              </div>
+              <span class="timeline-date">2023 — 2025</span>
+            </div>
+            <p class="timeline-desc">Asignado a proyectos clave en el sector financiero: <em>Cooperativa de Crédito Credicoop</em> y <em>Microfinanciera Credifin</em>.</p>
+            <ul class="timeline-points">
+              <li>Desarrollo y mantenimiento de plataformas web de crédito y seguimiento de cartera en <strong>C#, ASP.NET y JavaScript</strong>.</li>
+              <li>Implementación de reportería financiera y regulatoria mediante <strong>Crystal Reports y T-SQL</strong>, cumpliendo normativas estrictas de auditoría estatal.</li>
+              <li>Optimización de consultas y tablas transaccionales en <strong>SQL Server</strong>, acelerando el cálculo de estados de cuenta y tablas de amortización.</li>
+              <li>Participación en la modernización hacia arquitecturas basadas en <strong>NestJS, React y Vue.js</strong>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Educación -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Ingeniería de Sistemas</h3>
+                <span class="timeline-company">Universidad Nacional de Ingeniería (UNI)</span>
+              </div>
+              <span class="timeline-date">2020 — 2025</span>
+            </div>
+            <p class="timeline-desc">Especialización en ingeniería de software, arquitectura de sistemas y gestión de bases de datos relacionales.</p>
+            <div class="cert-badges">
+              <span class="badge">CS50x Harvard University / Fundación UNO</span>
+              <span class="badge">SQL Relacional & No Relacional</span>
+              <span class="badge">OOP con C# .NET</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stack Tecnológico -->
+    <section id="stack" class="content-section">
+      <h2 class="section-title">
+        <span>Stack Tecnológico</span>
+        <div class="title-line"></div>
+      </h2>
+
+      <div class="stack-grid">
+        <div class="glass-card stack-card">
+          <div class="stack-card-header">
+            <i data-lucide="server"></i>
+            <h3>Backend & Lenguajes</h3>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">.NET / .NET Core</span>
+            <span class="skill-tag">WinForms</span>
+            <span class="skill-tag">ASP.NET</span>
+            <span class="skill-tag">Python (Flask)</span>
+            <span class="skill-tag">JavaScript (ES6+)</span>
+            <span class="skill-tag">APIs REST</span>
+          </div>
+        </div>
+
+        <div class="glass-card stack-card">
+          <div class="stack-card-header">
+            <i data-lucide="database"></i>
+            <h3>Bases de Datos</h3>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-tag">Microsoft SQL Server</span>
+            <span class="skill-tag">T-SQL Stored Procedures</span>
+            <span class="skill-tag">Vistas & Triggers</span>
+            <span class="skill-tag">Optimización de Índices</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQLite</span>
+          </div>
+        </div>
+
+        <div class="glass-card stack-card">
+          <div class="stack-card-header">
+            <i data-lucide="bar-chart-3"></i>
+            <h3>Datos & Reportería</h3>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-tag">Pipelines ETL</span>
+            <span class="skill-tag">Data Warehousing</span>
+            <span class="skill-tag">Power BI Desktop</span>
+            <span class="skill-tag">Crystal Reports</span>
+            <span class="skill-tag">Reportería Regulatoria</span>
+          </div>
+        </div>
+
+        <div class="glass-card stack-card">
+          <div class="stack-card-header">
+            <i data-lucide="wrench"></i>
+            <h3>Herramientas & Entorno</h3>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-tag">Git & GitHub</span>
+            <span class="skill-tag">Visual Studio</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">HTML5 / CSS3</span>
+            <span class="skill-tag">Jinja2</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos Destacados (Works) -->
+    <section id="projects" class="content-section">
+      <h2 class="section-title">
+        <span>Proyectos Destacados</span>
+        <div class="title-line"></div>
+      </h2>
+
+      <div class="projects-grid">
+        <!-- Proyecto 1: ETL -->
+        <article class="glass-card project-card">
+          <div class="project-header">
+            <div class="project-icon-box">
+              <i data-lucide="database-zap"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/AndyCruz81/ETL-C-" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Repositorio GitHub">
+                <i data-lucide="github"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Pipeline ETL & Inteligencia de Negocios</h3>
+          <p class="project-desc">
+            Pipeline integral en C# y SQL Server para extraer, transformar y cargar datos heterogéneos en un Data Warehouse centralizado con visualización ejecutiva en Power BI.
+          </p>
+          <div class="project-metric">
+            <i data-lucide="trending-up"></i>
+            <span>+30% de eficiencia en gestión y análisis de datos</span>
+          </div>
+          <div class="project-tags">
+            <span>C#</span>
+            <span>SQL Server</span>
+            <span>ETL</span>
+            <span>Data Warehouse</span>
+            <span>Power BI</span>
+          </div>
+        </article>
+
+        <!-- Proyecto 2: Constructora -->
+        <article class="glass-card project-card">
+          <div class="project-header">
+            <div class="project-icon-box">
+              <i data-lucide="layout-template"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/AndyCruz81/CONSTRUCTORA" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Repositorio GitHub">
+                <i data-lucide="github"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Plataforma Web para Empresa Constructora</h3>
+          <p class="project-desc">
+            Solución web completa en Python (Flask) para gestión de clientes, proyectos y cotizaciones de obra. Incluye autenticación segura, encriptación y validación en tiempo real.
+          </p>
+          <div class="project-metric">
+            <i data-lucide="check-circle-2"></i>
+            <span>Arquitectura modular sin frameworks CSS pesados</span>
+          </div>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>SQLite</span>
+            <span>JavaScript</span>
+            <span>Jinja2</span>
+          </div>
+        </article>
+
+        <!-- Proyecto 3: Fintech -->
+        <article class="glass-card project-card">
+          <div class="project-header">
+            <div class="project-icon-box">
+              <i data-lucide="shield-check"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://www.linkedin.com/in/andy-cruz-/" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Detalle en LinkedIn">
+                <i data-lucide="external-link"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Sistema de Crédito & Auditoría Regulatoria</h3>
+          <p class="project-desc">
+            Módulos transaccionales y reportería obligatoria ante entes reguladores estatales para cooperativas de crédito y microfinancieras (Credicoop / Credifin).
+          </p>
+          <div class="project-metric">
+            <i data-lucide="lock"></i>
+            <span>100% de cumplimiento en auditorías financieras</span>
+          </div>
+          <div class="project-tags">
+            <span>C# .NET</span>
+            <span>SQL Server</span>
+            <span>Crystal Reports</span>
+            <span>Fintech</span>
+          </div>
+        </article>
+
+        <!-- Proyecto 4: Desktop Transaccional -->
+        <article class="glass-card project-card">
+          <div class="project-header">
+            <div class="project-icon-box">
+              <i data-lucide="monitor"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/AndyCruz81/CRUD-C-SQL-SERVER---WINDOWS-FORM" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Repositorio GitHub">
+                <i data-lucide="github"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Sistema Transaccional de Gestión Comercial</h3>
+          <p class="project-desc">
+            Aplicación de escritorio en C# WinForms con control transaccional completo conectada a Microsoft SQL Server para operaciones de facturación y control de inventarios.
+          </p>
+          <div class="project-metric">
+            <i data-lucide="cpu"></i>
+            <span>Arquitectura transaccional de alto rendimiento</span>
+          </div>
+          <div class="project-tags">
+            <span>C#</span>
+            <span>WinForms</span>
+            <span>SQL Server</span>
+            <span>CRUD</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contacto (Contact) -->
+    <section id="contact" class="content-section">
+      <h2 class="section-title">
+        <span>Contacto & Disponibilidad</span>
+        <div class="title-line"></div>
+      </h2>
+
+      <div class="glass-card contact-card">
+        <div class="contact-header">
+          <div class="availability-badge">
+            <span class="status-pulse"></span>
+            <span>Abierto a colaboraciones remotas flexibles y contratos por hitos</span>
+          </div>
+          <h3>¿Tienes un proyecto en mente o necesitas apoyo técnico?</h3>
+          <p>
+            Especialmente interesado en desarrollo de backend (.NET / C#, Python), optimización de bases de datos SQL Server, pipelines ETL o tableros analíticos en Power BI.
+          </p>
+        </div>
+
+        <div class="contact-buttons">
+          <button id="copy-email-btn" class="btn btn-primary">
+            <i data-lucide="copy"></i>
+            <span id="copy-email-text">Copiar Andycruzuni@gmail.com</span>
+          </button>
+          <a href="mailto:Andycruzuni@gmail.com" class="btn btn-secondary">
+            <i data-lucide="send"></i>
+            <span>Enviar Correo Directo</span>
+          </a>
+          <a href="https://www.linkedin.com/in/andy-cruz-/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i data-lucide="linkedin"></i>
+            <span>Conectar en LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Andy José Cruz García. Todos los derechos reservados.</p>
+      <p class="footer-sub">Inspirado en el diseño minimalista de Takuya Matsuyama · Managua, Nicaragua</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
