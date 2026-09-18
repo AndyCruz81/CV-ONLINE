@@ -5,9 +5,9 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](#)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github&logoColor=white)](#)
 
-Sitio web y portafolio interactivo de **Andy José Cruz García**, Ingeniero de Sistemas y Desarrollador Backend / Datos en Nicaragua con más de 3 años de experiencia en Fintech y Retail.
+Mi sitio web y portafolio interactivo profesional. Soy **Andy José Cruz García**, Ingeniero de Sistemas y Desarrollador Backend / Datos en Nicaragua con más de 3 años de experiencia en Fintech y Retail.
 
-Inspirado en el diseño minimalista dark/glassmorphic de **Takuya Matsuyama** y **xch4rt.dev**.
+Diseño minimalista dark/glassmorphic inspirado en **Takuya Matsuyama**.
 
 ---
 
