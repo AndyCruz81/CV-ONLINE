@@ -343,6 +343,19 @@ body {
   overflow: hidden;
 }
 
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.avatar-ring:hover .avatar-img {
+  transform: scale(1.08);
+}
+
 .avatar-initials {
   font-size: 2rem;
   font-weight: 800;

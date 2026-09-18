@@ -1,8 +1,4 @@
-// Initialize Lucide Icons
 document.addEventListener('DOMContentLoaded', () => {
-  if (window.lucide) {
-    window.lucide.createIcons();
-  }
 
   // Theme Toggle (Dark / Light)
   const themeToggle = document.getElementById('theme-toggle');
